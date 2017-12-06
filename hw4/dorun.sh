@@ -21,7 +21,7 @@ killitif web2
 # This is so that the other shells know where to find the containers
 # to hotswap, regardless of the directories 
 
-docker-compose -p ecs189 up  & 
+docker-compose -p ecs189 up -d &
 
 # Initially the reverse proxy points at engineering URL 
 # WE first make it point at the right url, using the init.sh script

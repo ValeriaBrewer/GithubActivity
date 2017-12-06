@@ -8,11 +8,11 @@ FILES:
 
 Dockerfile: 
   starts off with ubuntu, adds a bunch of tools, and then also
-  nginx. Then addes the nginx conf, and a bunch of shell scripts. 
+  nginx. Then adds the nginx conf, and a bunch of shell scripts.
 
   WHy do these files have to be within the docker? 
   where do we put them? why? 
-  Do they have the right permisions within ther docker? 
+  Do they have the right permissions within their docker?
   What port does this docker expose? 
   how do we make sure that something inside the docker is listening on this port? 
   Should this docker contain the ".war" file? Why ? or why not? 
@@ -29,7 +29,7 @@ init.sh
   how do you make shell scripts inside the docker run from outside? (hint: docker exec...) 
 
 swap2.sh
-  hot-swaps from web1 to web2. Read this carefully and understand waht is going on, and 
+  hot-swaps from web1 to web2. Read this carefully and understand what is going on, and
 
 
 swap1.sh
